@@ -92,9 +92,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="-50.739833"
-     inkscape:cy="29.517722"
+     inkscape:zoom="11.313708"
+     inkscape:cx="28.30906"
+     inkscape:cy="10.690249"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -117,7 +117,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -183,6 +183,18 @@
        cx="72.124352"
        id="ellipse887"
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.81394577;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+    <path
+       style="display:inline;fill:none;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 42.18087,53.016379 c -0.511675,8.833129 -2.35248,12.240392 -6.80356,16.019479 -3.576393,3.036453 -3.638824,8.113282 -1.819049,10.715762"
+       id="path890"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc"
+       transform="translate(26.911905,-0.03095311)" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Sign">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#313131;stroke-width:3.00361133;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        id="rect850"
@@ -191,20 +203,23 @@
        x="53.19487"
        y="65.923592"
        ry="0"
-       transform="matrix(0.98898799,0.14799583,-0.0791163,0.99686539,0,0)" />
+       transform="matrix(0.98898799,0.14799583,-0.0791163,0.99686539,-26.911905,0.03095311)" />
     <path
+       transform="translate(-26.911905,0.03095311)"
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#313131;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
        d="m 46.797825,73.127328 51.220579,7.665688 -3.041603,38.328444 1.586733,-1.27055 2.942374,-38.20957 -50.710006,-7.748161 z"
        id="rect852"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
+       transform="translate(-26.911905,0.03095311)"
        style="fill:#ff8702;fill-opacity:1;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 120.28774,95.188501 c -6.5652,1.89813 -15.77151,-3.43814 -22.489391,-2.03392 -12.069722,2.5229 -4.48349,20.793559 14.475261,24.991079"
        id="path915"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />
     <path
+       transform="translate(-26.911905,0.03095311)"
        sodipodi:nodetypes="csc"
        inkscape:connector-curvature="0"
        id="path891"
@@ -216,7 +231,7 @@
        x="65.631599"
        y="94.162338"
        id="text857"
-       transform="matrix(0.98843805,0.1418575,-0.07767242,1.0005499,0,0)"><tspan
+       transform="matrix(0.98843805,0.1418575,-0.07767242,1.0005499,-26.911905,0.03095311)"><tspan
          sodipodi:role="line"
          id="tspan855"
          x="65.631599"
