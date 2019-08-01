@@ -114,9 +114,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.313709"
-     inkscape:cx="23.506365"
-     inkscape:cy="87.475075"
+     inkscape:zoom="5.6568545"
+     inkscape:cx="-37.070094"
+     inkscape:cy="88.321754"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -196,18 +196,6 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <path
-       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 112.99468,77.30734 c 0.4799,3.715995 3.33043,6.209106 6.72567,5.675929 3.30546,-0.521797 5.9429,-3.739189 6.395,-7.459469 0.0868,-0.713922 -0.41173,-0.909615 -0.83666,-0.763878 l -7.03858,2.413943 c -1.34597,0.461608 -2.78394,-0.254962 -3.2238,-1.608186 l -0.37054,-1.140428 c -1.32098,0.383253 -1.81481,1.614361 -1.65109,2.882089 z"
-       id="path885"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="scsscccs" />
-    <path
-       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 78.895056,69.966873 c -0.151303,0.41866 -0.25637,0.850529 -0.335518,1.282758 -0.720582,3.977717 1.474763,7.309367 4.903404,7.441392 2.739367,0.105526 6.462726,-1.3359 7.012397,-3.985137 0.369186,-1.779356 -0.331271,-2.93578 -0.972611,-3.354133 l -0.931082,1.241256 c -0.854167,1.138027 -2.46939,1.380227 -3.621021,0.544492 l -4.685791,-3.400363 c -0.565578,-0.410426 -1.163359,-0.341435 -1.369778,0.229735 z"
-       id="ellipse887"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="sccscccss" />
-    <path
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.80000043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 101.06906,87.973021 c 0,1.285712 -5.798795,5.626185 -7.978025,5.353332 -2.347786,-0.293956 -5.352282,-6.102738 -4.886678,-7.298794 1.182056,-3.036506 12.864703,-1.596862 12.864703,1.945462 z"
        id="rect902"
@@ -286,6 +274,18 @@
        id="path864"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccc" />
+    <path
+       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999971;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 112.23087,76.935743 c 0.55301,4.28212 3.83783,7.15504 7.75031,6.54064 3.80902,-0.60129 6.84827,-4.30884 7.36923,-8.59589 0.1,-0.82269 -0.47443,-1.0482 -0.96411,-0.88025 l -8.11088,2.78169 c -1.55101,0.53194 -3.20804,-0.2938 -3.71494,-1.85318 l -0.42697,-1.31417 c -1.52224,0.44164 -2.0913,1.8603 -1.90264,3.32116 z"
+       id="path885-2"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="scsscccs" />
+    <path
+       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 77.011495,68.875703 c -0.175695,0.48616 -0.297701,0.98765 -0.389609,1.48956 -0.836751,4.61899 1.712519,8.48776 5.693911,8.64107 3.180998,0.12253 7.504623,-1.55127 8.142908,-4.62761 0.428705,-2.06621 -0.384677,-3.40907 -1.12941,-3.89487 l -1.081187,1.44136 c -0.991873,1.3215 -2.867496,1.60275 -4.204788,0.63228 l -5.441217,-3.94856 c -0.656758,-0.47659 -1.35091,-0.39648 -1.590608,0.26677 z"
+       id="ellipse887"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sccscccss" />
   </g>
   <g
      inkscape:groupmode="layer"
