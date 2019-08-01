@@ -93,7 +93,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.313708"
-     inkscape:cx="28.30906"
+     inkscape:cx="-13.410242"
      inkscape:cy="10.690249"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -190,6 +190,12 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc"
        transform="translate(26.911905,-0.03095311)" />
+    <path
+       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.80000043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 84.223749,75.459686 c 0,1.68797 -7.613015,7.38642 -10.474045,7.0282 -3.082325,-0.38592 -7.026817,-8.01206 -6.415543,-9.58232 1.551878,-3.98652 16.889588,-2.09646 16.889588,2.55412 z"
+       id="rect902"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssss" />
   </g>
   <g
      inkscape:groupmode="layer"
