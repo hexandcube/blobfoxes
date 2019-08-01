@@ -110,9 +110,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="5.4752096"
-     inkscape:cy="25.7119"
+     inkscape:zoom="11.2"
+     inkscape:cx="50.675915"
+     inkscape:cy="56.55747"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -205,7 +205,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />
     <g
-       transform="matrix(-0.43260955,0.52245873,0.52245873,0.43260955,64.727601,13.869776)"
+       transform="matrix(-0.43260955,0.52245873,0.52245873,0.43260955,61.96938,13.869776)"
        id="g910"
        style="stroke-width:1.47423649">
       <path
@@ -245,11 +245,10 @@
     </g>
     <path
        style="fill:#ff8702;fill-opacity:1;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 50.904567,119.30169 c 4.797368,-12.99196 -5.842649,-18.56236 -14.682464,-8.4487"
+       d="m 75.058251,119.27074 c 6.984868,-13.84017 -5.440863,-21.374863 -14.682464,-8.4487"
        id="path915"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cc"
-       transform="translate(26.911905,-0.03095311)" />
+       sodipodi:nodetypes="cc" />
   </g>
   <g
      inkscape:groupmode="layer"
