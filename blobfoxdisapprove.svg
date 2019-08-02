@@ -104,8 +104,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="2.8"
-     inkscape:cx="-220.19649"
-     inkscape:cy="120.57208"
+     inkscape:cx="-200.10269"
+     inkscape:cy="97.203068"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -194,24 +194,24 @@
        sodipodi:nodetypes="ssss" />
     <path
        style="display:inline;fill:none;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 70.676023,55.791316 c -0.511675,8.833129 -3.944304,9.434622 -8.395384,13.213709 -3.576393,3.036453 -3.638824,8.113282 -1.819049,10.715762"
+       d="m 71.658166,56.371673 c -0.511675,8.833129 -4.926447,8.854265 -9.377527,12.633352 -3.576393,3.036453 -3.638824,8.113282 -1.819049,10.715762"
        id="path890"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />
     <rect
        style="opacity:1;fill:#ff8702;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill"
        id="rect907"
-       width="25.19068"
-       height="14.142136"
-       x="104.74976"
-       y="31.692896"
-       transform="rotate(7.313976)" />
+       width="25.190657"
+       height="14.142134"
+       x="109.11355"
+       y="31.132793"
+       transform="rotate(7.3139816)" />
     <rect
-       transform="rotate(10.950792)"
-       y="26.769918"
-       x="57.877266"
+       transform="rotate(10.950795)"
+       y="26.579964"
+       x="58.858974"
        height="14.142136"
-       width="25.19068"
+       width="25.19067"
        id="rect924"
        style="opacity:1;fill:#ff8702;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0;paint-order:markers stroke fill" />
     <circle
@@ -221,12 +221,12 @@
        cy="47.440941"
        r="11.963994"
        clip-path="url(#clipPath866)"
-       transform="matrix(0.73312934,0.11203274,-0.11095986,0.73038266,89.23577,24.5852)"
+       transform="matrix(0.73312916,0.11203274,-0.11095981,0.73038267,90.235678,24.585199)"
        inkscape:transform-center-x="3.6225814"
        inkscape:transform-center-y="1.6836043" />
     <path
        style="fill:none;stroke:#313131;stroke-width:4.00000048;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 50.168503,44.585864 21.013748,3.211205 c 2.521703,0.385352 4.093473,-0.992152 4.43649,-3.250018"
+       d="m 51.168421,44.585862 21.013741,3.211206 c 2.521701,0.385352 4.093471,-0.992152 4.436488,-3.250019"
        id="path858"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc"
@@ -235,7 +235,7 @@
     <circle
        inkscape:transform-center-y="4.2945071"
        inkscape:transform-center-x="9.2939426"
-       transform="matrix(0.73724079,0.08693615,-0.08615978,0.73399992,131.96922,28.894066)"
+       transform="matrix(0.73724007,0.08693614,-0.08615968,0.73399974,136.36863,28.894077)"
        clip-path="url(#clipPath866)"
        r="11.963994"
        cy="47.440941"
@@ -248,20 +248,22 @@
        sodipodi:nodetypes="csc"
        inkscape:connector-curvature="0"
        id="path876"
-       d="m 93.566309,50.225787 21.131591,2.491859 c 2.53585,0.299029 4.0614,-1.131887 4.32776,-3.400936"
+       d="m 97.96576,50.225788 21.13159,2.491858 c 2.53583,0.299029 4.06139,-1.131886 4.32775,-3.400936"
        style="fill:none;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <circle
+    <ellipse
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        id="path878"
-       cx="59.806969"
+       cx="60.806877"
        cy="55.542629"
-       r="3.9143412" />
-    <circle
-       r="3.9143412"
+       rx="3.9143407"
+       ry="3.9143414" />
+    <ellipse
        cy="60.667633"
-       cx="103.51073"
+       cx="107.91022"
        id="circle880"
-       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
+       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:8;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       rx="3.9143379"
+       ry="3.9143407" />
   </g>
   <g
      inkscape:groupmode="layer"
