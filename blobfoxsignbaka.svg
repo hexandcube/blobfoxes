@@ -118,11 +118,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="-414.97089"
-     inkscape:cy="46.170158"
+     inkscape:zoom="8.0000002"
+     inkscape:cx="-32.695559"
+     inkscape:cy="48.155755"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer7"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -247,7 +247,7 @@
        d="M 76.26902,90.620517 88.38971,74.405354"
        style="opacity:0.3;fill:none;stroke:#ff001d;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <ellipse
-       style="opacity:0.25;fill:#ff001d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter1036)"
+       style="opacity:0.3;fill:#ff001d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter1036)"
        id="path1008"
        cx="76.852341"
        cy="81.807755"
@@ -259,7 +259,7 @@
        cy="73.134117"
        cx="25.146698"
        id="ellipse1010"
-       style="opacity:0.25;fill:#ff001d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter1040)" />
+       style="opacity:0.3;fill:#ff001d;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:14;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers;filter:url(#filter1040)" />
   </g>
   <g
      inkscape:groupmode="layer"
