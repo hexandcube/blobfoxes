@@ -226,9 +226,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="-347.81845"
-     inkscape:cy="131.96557"
+     inkscape:zoom="11.2"
+     inkscape:cx="48.653253"
+     inkscape:cy="85.860543"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -285,12 +285,12 @@
      inkscape:label="Ear front">
     <path
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M 102.1139,4.5622049 C 97.292781,2.761379 70.904376,16.485339 62.076395,36.746659 c 5.921455,6.430027 17.640499,-2.39005 22.666563,-3.387884 -1.110213,2.319902 -2.746591,8.185214 -2.433058,10.994868 2.162101,0.530277 8.703842,-0.546222 10.96444,-3.552995 2.028103,4.785871 0.96835,15.980329 8.20921,16.313805 7.45709,-17.890916 5.96584,-50.5592858 0.63035,-52.5522481 z"
+       d="M 101.13176,5.9907763 C 96.310638,4.1899504 69.922233,17.91391 61.094252,38.17523 c 5.921455,6.430027 17.640499,-2.39005 22.666563,-3.387884 -1.110213,2.319902 -2.746591,8.185214 -2.433058,10.994868 2.162101,0.530277 8.703842,-0.546222 10.96444,-3.552995 2.028103,4.785871 0.96835,15.980329 8.209213,16.313805 7.45709,-17.890916 5.96584,-50.5592854 0.63035,-52.5522477 z"
        id="path923"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="scccccs" />
     <path
-       transform="matrix(0.92410508,-0.11913312,0.11927739,0.92693044,-37.680849,22.359122)"
+       transform="matrix(0.92410508,-0.11913312,0.11927739,0.92693044,-38.662992,23.787693)"
        clip-path="url(#clipPath848)"
        sodipodi:nodetypes="ssccss"
        inkscape:connector-curvature="0"
