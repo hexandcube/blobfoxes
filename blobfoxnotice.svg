@@ -132,9 +132,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="-145.71633"
-     inkscape:cy="109.72577"
+     inkscape:zoom="5.6"
+     inkscape:cx="-30.269538"
+     inkscape:cy="13.907046"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -157,7 +157,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -301,12 +301,12 @@
     </g>
     <g
        aria-label="!"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.74473667px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#ec1111;fill-opacity:1;stroke:#fde2e2;stroke-width:12.28350925;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.74473667px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#c40049;fill-opacity:1;stroke:#fde2e2;stroke-width:9.82680798;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
        id="text921"
-       transform="matrix(0.81409958,0,0,0.81409958,56.027421,1.4478927)">
+       transform="matrix(0.81409958,0,0,0.81409958,56.753468,1.4478927)">
       <path
          d="M 35.677933,35.806265 H 47.582454 L 49.790865,4.3252129 H 33.469522 Z m 5.95226,18.526478 c 3.832916,0 7.002441,-3.169527 7.002441,-7.002442 0,-3.832915 -3.169525,-7.002441 -7.002441,-7.002441 -3.832915,0 -7.002441,3.169526 -7.002441,7.002441 0,3.832915 3.169526,7.002442 7.002441,7.002442 z"
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:69.95789337px;font-family:Gilroy;-inkscape-font-specification:'Gilroy Ultra-Bold';fill:#ec1111;fill-opacity:1;stroke:#fde2e2;stroke-width:12.28350925;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:69.95789337px;font-family:Gilroy;-inkscape-font-specification:'Gilroy Ultra-Bold';fill:#c40049;fill-opacity:1;stroke:#fde2e2;stroke-width:9.82680798;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
          id="path923"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="cccccsssss" />
