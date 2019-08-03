@@ -124,9 +124,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8"
-     inkscape:cx="12.565426"
-     inkscape:cy="53.545799"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="7.135186"
+     inkscape:cy="99.977603"
      inkscape:document-units="px"
      inkscape:current-layer="layer5"
      showgrid="false"
@@ -140,7 +140,7 @@
      inkscape:window-x="2880"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     showguides="true" />
+     showguides="false" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -207,7 +207,7 @@
        style="opacity:1;fill:#ebdccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.80000019;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
     <path
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.80000067;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 127.46724,25.386927 c -2.7424,-3.223737 -34.426066,-0.383059 -45.505793,10.179865 0.701244,4.785892 2.264286,6.144045 3.974843,7.195246 2.669967,1.640796 4.595331,-1.962106 5.44261,-5.07741 2.392356,1.570199 4.809953,6.551038 5.050401,9.753931 0.275935,0.575715 4.794289,-1.449048 6.181639,-3.319351 1.15748,2.244005 -0.18833,8.035421 3.21754,10.597196 17.04332,-4.830428 24.26121,-26.24675 21.63876,-29.329477 z"
+       d="m 127.37885,25.431121 c -2.7424,-3.223737 -34.337676,-0.427253 -45.417403,10.135671 0.701244,4.785892 2.264286,6.144045 3.974843,7.195246 2.669967,1.640796 5.470331,-1.274606 6.31761,-4.38991 2.392356,1.570199 4.809953,6.551038 5.050401,9.753931 0.275935,0.575715 4.794289,-1.449048 6.181639,-3.319351 1.15748,2.244005 1.27896,9.990688 4.68483,12.552463 16.20363,-7.437885 21.83053,-28.845323 19.20808,-31.92805 z"
        id="path911-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="scsccccs" />

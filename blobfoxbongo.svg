@@ -94,11 +94,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="91.906954"
-     inkscape:cy="80.105208"
+     inkscape:zoom="11.2"
+     inkscape:cx="36.767802"
+     inkscape:cy="8.9546613"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -235,11 +235,11 @@
        sodipodi:nodetypes="csc"
        inkscape:connector-curvature="0"
        id="path872"
-       d="m 41.894405,52.456263 c -2.084038,1.95172 -4.263404,4.835216 -5.578369,7.319141 -17.804781,33.632642 10.640754,40.276936 22.208951,13.037475"
+       d="m 44.17538,51.130438 c -3.220459,2.141123 -6.805314,6.301145 -8.356288,8.644966 -20.835239,31.486068 11.019561,40.276936 22.587758,13.037475"
        style="fill:#ff8702;fill-opacity:1;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="opacity:1;fill:#c32024;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 117.25328,126.45119 -9.95994,-2.20346 8.03481,-9.84591 z"
+       d="m 117.25328,127.16548 -9.95994,-2.20346 8.03481,-9.84591 z"
        id="rect933"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />
@@ -261,11 +261,11 @@
        sodipodi:nodetypes="cccc"
        inkscape:connector-curvature="0"
        id="path940"
-       d="M 37.659886,112.38859 26.911905,111.05433 34.421439,99.844427 Z"
+       d="M 37.659886,110.69216 26.911905,109.3579 34.421439,98.147998 Z"
        style="opacity:1;fill:#c32024;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
     <path
        style="opacity:1;fill:#c32024;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M 60.848217,103.26508 53.691852,110.82052 49.29761,98.623169 Z"
+       d="M 61.116074,101.47936 53.959709,109.0348 49.565467,96.837455 Z"
        id="path942"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccc" />

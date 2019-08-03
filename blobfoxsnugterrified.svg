@@ -156,9 +156,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.9195959"
-     inkscape:cx="16.958173"
-     inkscape:cy="63.551761"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-104.61137"
+     inkscape:cy="139.64893"
      inkscape:document-units="px"
      inkscape:current-layer="layer5"
      showgrid="false"
@@ -212,9 +212,9 @@
      id="layer5"
      inkscape:label="Ear front">
     <path
-       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.80000043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 127.47945,19.31184 c -2.72331,-3.205843 -34.186436,-0.380939 -45.189033,10.123339 0.696362,4.759329 2.248524,6.109934 3.947174,7.155305 2.651381,1.631686 4.563346,-1.951218 5.404726,-5.049227 2.375696,1.561484 4.776462,6.514669 5.015243,9.699778 0.274015,0.57252 4.76092,-1.440997 6.13862,-3.300921 1.14941,2.231544 -0.18703,7.990813 3.19513,10.538367 16.92468,-4.803618 24.09233,-26.101034 21.48814,-29.166641 z"
-       id="path911-8-3"
+       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.80000067;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="m 127.47945,19.31184 c -2.7424,-3.223737 -34.33768,-0.427253 -45.41741,10.135671 0.70125,4.785892 2.26429,6.144045 3.97485,7.195246 2.66996,1.640796 5.47033,-1.274606 6.31761,-4.38991 2.39235,1.570199 4.80995,6.551038 5.0504,9.753931 0.27593,0.575715 4.79429,-1.449048 6.18164,-3.319351 1.15748,2.244005 1.27896,9.990688 4.68483,12.552463 16.20363,-7.437885 21.83053,-28.845323 19.20808,-31.92805 z"
+       id="path911-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="scsccccs" />
   </g>

@@ -234,9 +234,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8"
-     inkscape:cx="54.102662"
-     inkscape:cy="88.69409"
+     inkscape:zoom="4"
+     inkscape:cx="16.104543"
+     inkscape:cy="17.673539"
      inkscape:document-units="px"
      inkscape:current-layer="layer5"
      showgrid="false"
@@ -309,8 +309,8 @@
      inkscape:label="Ear front">
     <path
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.80000067;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 125.97947,14.357057 c -2.64823,-3.114893 -33.243765,-0.370125 -43.94298,9.836165 0.855975,9.422588 8.533934,6.98512 14.060959,9.580399 3.014851,1.415656 3.138935,6.108312 8.986401,8.922667 16.45799,-4.667339 23.428,-25.360585 20.89562,-28.339231 z"
-       id="path911-8-3"
+       d="m 125.604,14.786681 c -2.6307,-3.092432 -32.939075,-0.409851 -43.56751,9.722833 1.51336,11.608406 6.992157,8.206961 13.761889,10.830944 6.447121,2.498933 4.420621,4.25803 11.379911,10.073808 15.54363,-7.134932 20.94134,-27.670421 18.42571,-30.627585 z"
+       id="path911-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="scscs" />
   </g>
