@@ -74,16 +74,6 @@
        y1="112.44355"
        x2="95.348198"
        y2="85.856133" />
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath848">
-      <path
-         sodipodi:nodetypes="scccccs"
-         inkscape:connector-curvature="0"
-         id="path850"
-         d="M 151.14447,0.33917988 C 146.26964,-2.2314866 116.36421,8.7225203 104.2178,29.016572 c 5.41086,7.633828 19.06431,-0.122979 24.53933,-0.494288 -1.49634,2.310053 -4.03617,8.310589 -4.08717,11.335166 2.22409,0.85854 9.31981,0.611108 12.13198,-2.270484 1.5001,5.35635 -1.15567,17.091196 6.48995,18.435725 10.36626,-17.966089 13.24747,-52.8385826 7.85258,-55.68351112 z"
-         style="opacity:1;fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
-    </clipPath>
     <mask
        id="mask914-7"
        maskUnits="userSpaceOnUse">
@@ -133,10 +123,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="-30.269538"
-     inkscape:cy="13.907046"
+     inkscape:cx="21.703374"
+     inkscape:cy="135.96972"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -144,7 +134,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="3840"
-     inkscape:window-height="1981"
+     inkscape:window-height="1982"
      inkscape:window-x="2880"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -167,10 +157,17 @@
      inkscape:label="Ear  back">
     <path
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999948;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 21.160672,21.283293 c 5.20336,-2.130316 18.641122,16.743261 33.265554,21.500787 L 26.361592,59.759631 C 21.01045,51.51277 16.445085,23.21392 21.160672,21.283293 Z"
+       d="m 24.696206,19.894333 c 4.699556,-3.086644 15.926337,16.806396 29.73002,22.889747 L 32.74552,54.938202 C 33.153307,45.977056 17.882405,24.369603 24.696206,19.894333 Z"
        id="rect870"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccs" />
+    <path
+       clip-path="none"
+       sodipodi:nodetypes="sccccccss"
+       inkscape:connector-curvature="0"
+       id="path872"
+       d="m 24.514787,23.486083 c -1.724877,0.159729 -2.810166,7.100307 0.782402,14.37768 -0.969799,-0.828263 -1.560987,-1.191235 -4.01292,-1.891081 0.779604,4.925101 1.513185,8.811526 6.331819,11.35819 L 22.16963,46.507479 c 2.193517,3.86527 5.568883,7.899038 11.011456,9.058481 l 3.779427,-4.277543 c -7.096071,-0.93184 -4.115471,-13.516765 -6.653536,-21.442245 -1.492029,-4.659079 -4.315084,-6.496874 -5.79219,-6.360089 z"
+       style="opacity:1;fill:#ebdccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -188,19 +185,16 @@
      id="layer5"
      inkscape:label="Ear front">
     <path
-       sodipodi:nodetypes="scccccs"
+       sodipodi:nodetypes="sccccs"
        inkscape:connector-curvature="0"
        id="path873"
-       d="m 116.67007,21.377791 c -4.16086,-2.194149 -29.686431,7.155476 -40.053904,24.477171 4.618398,6.515732 16.272192,-0.104968 20.945376,-0.421895 -1.277208,1.971709 -3.445058,7.093381 -3.488592,9.674958 1.898354,0.732794 7.95487,0.521603 10.35517,-1.937934 1.28041,4.571833 -0.98642,14.58794 5.53946,15.735533 8.84803,-15.334678 11.30728,-45.099584 6.70249,-47.527833 z"
+       d="m 116.67007,21.377791 c -4.16086,-2.194149 -29.686431,7.155476 -40.053904,24.477171 4.618398,6.515732 20.901412,-0.335431 24.196804,-4.304669 l 4.08866,7.89486 c 0.42809,4.698103 -1.45993,18.312878 5.06595,19.460471 8.84803,-15.334678 11.30728,-45.099584 6.70249,-47.527833 z"
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999948;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
     <path
-       style="opacity:1;fill:#ebdccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.28397202;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 148.35911,4.3356447 c -1.78771,-0.8484478 -11.00575,2.906299 -16.19325,7.6720183 -10.53309,9.676667 -1.07136,22.664674 -28.29413,20.811212 6.00859,14.75387 19.11803,20.290527 34.81182,24.002583 -2.67038,-18.583744 9.24321,-19.504661 10.95019,-39.43404 0.64348,-7.5127806 0.14869,-12.3762659 -1.27463,-13.0517733 z"
-       id="path958"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ssccss"
-       clip-path="url(#clipPath848)"
-       transform="matrix(0.85171779,0,0,0.85353524,-12.147978,21.173953)" />
+       style="opacity:1;fill:#ebdccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       clip-path="none"
+       d="M 113.34961 24.763672 C 110.70158 24.865482 103.93387 27.419602 99.851562 30.728516 C 94.651661 34.943291 91.993633 46.11459 85.189453 48.617188 C 89.828139 47.969078 94.829278 45.702237 97.517578 45.519531 C 96.243119 47.491242 94.078593 52.611776 94.035156 55.193359 C 95.929453 55.926153 101.97396 55.715399 104.36914 53.255859 C 104.93958 55.297043 104.80734 58.421518 105.0625 61.359375 C 105.06664 50.29851 114.34702 46.531032 115.29688 36.015625 C 115.87586 29.605921 115.42516 25.451569 114.21289 24.875 C 114.02256 24.784477 113.7279 24.749128 113.34961 24.763672 z "
+       id="path958" />
   </g>
   <g
      inkscape:label="Face"

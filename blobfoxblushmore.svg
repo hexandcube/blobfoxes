@@ -131,11 +131,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.4363264"
-     inkscape:cx="-6.5138495"
-     inkscape:cy="51.106247"
+     inkscape:zoom="2.6291384"
+     inkscape:cx="17.247554"
+     inkscape:cy="21.863223"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -143,7 +143,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="3840"
-     inkscape:window-height="1981"
+     inkscape:window-height="1982"
      inkscape:window-x="2880"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -199,17 +199,17 @@
      id="layer1"
      transform="translate(-26.911905,0.03095311)">
     <path
-       style="fill:none;stroke:#313131;stroke-width:3.99999952;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 112.27814,57.776989 c -6.56519,0.966285 -13.365217,2.875134 -17.775568,5.466808 5.813658,1.077977 10.659358,2.526652 14.979238,4.616418"
-       id="path852"
+       style="fill:none;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 113.81455,57.251 c -7.13265,1.059257 -14.520418,3.151765 -19.311978,5.992797 6.316148,1.181699 11.580688,2.769759 16.273948,5.060589"
+       id="path852-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccc" />
     <path
        sodipodi:nodetypes="ccc"
        inkscape:connector-curvature="0"
-       id="path854"
-       d="m 52.571477,49.33838 c 5.480959,3.130333 10.850935,7.16512 13.87607,10.963421 -5.507394,-1.084349 -10.283858,-1.507977 -14.811962,-1.188907"
-       style="fill:none;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       id="path854-7"
+       d="m 51.71321,48.623048 c 5.819969,3.334579 11.522087,7.632624 14.734337,11.678753 -5.848041,-1.1551 -10.91994,-1.606369 -15.728115,-1.26648"
+       style="fill:none;stroke:#313131;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <g
      inkscape:groupmode="layer"

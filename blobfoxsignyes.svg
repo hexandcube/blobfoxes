@@ -93,10 +93,10 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.313708"
-     inkscape:cx="16.553409"
-     inkscape:cy="35.527376"
+     inkscape:cx="25.362027"
+     inkscape:cy="-4.295856"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -104,11 +104,11 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="3840"
-     inkscape:window-height="1981"
+     inkscape:window-height="1982"
      inkscape:window-x="2880"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
-     showguides="false" />
+     showguides="true" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -117,7 +117,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -192,7 +192,7 @@
        transform="translate(26.911905,-0.03095311)" />
     <path
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.80000043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 57.311843,75.490645 c 0,1.687965 -7.613015,7.386413 -10.474045,7.028195 -3.082324,-0.385924 -7.026816,-8.012062 -6.415542,-9.58232 1.551878,-3.986518 16.889587,-2.096463 16.889587,2.554125 z"
+       d="m 57.311845,75.49064 c 0,1.68797 -7.61301,7.38641 -10.47404,7.0282 -3.08233,-0.38593 -7.02682,-8.01207 -6.41555,-9.58232 1.55188,-3.98652 16.88959,-2.09647 16.88959,2.55412 z"
        id="rect902"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssss"
@@ -203,47 +203,35 @@
      id="layer2"
      inkscape:label="Sign">
     <rect
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#313131;stroke-width:3.00361133;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-       id="rect850"
-       width="50.677105"
-       height="37.617916"
-       x="53.19487"
-       y="65.923592"
-       ry="0"
-       transform="matrix(0.98898799,0.14799583,-0.0791163,0.99686539,-26.911905,0.03095311)" />
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       id="rect847"
+       width="76.102371"
+       height="46.757435"
+       x="14.082661"
+       y="79.242569" />
     <path
-       transform="translate(-26.911905,0.03095311)"
-       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#313131;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
-       d="m 46.797825,73.127328 51.220579,7.665688 -3.041603,38.328444 1.586733,-1.27055 2.942374,-38.20957 -50.710006,-7.748161 z"
-       id="rect852"
+       sodipodi:nodetypes="ccccccc"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       id="path849"
+       d="m 12.896639,78.483585 78.47271,-0.0943 -0.112038,48.423425 2.840916,-2.19344 0.0032,-48.292987 -77.932854,0.004 z"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#313131;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:1.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke" />
     <path
-       transform="translate(-26.911905,0.03095311)"
        style="fill:#ff8702;fill-opacity:1;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 120.28774,95.188501 c -6.5652,1.89813 -15.77151,-3.43814 -22.489391,-2.03392 -12.069722,2.5229 -4.48349,20.793559 14.475261,24.991079"
+       d="m 108.31952,92.08594 c -6.9402,1.08563 -11.024201,-1.512438 -17.614393,0.40358 -11.257222,3.2729 -7.67099,20.16855 9.600263,22.55357"
        id="path915"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />
-    <path
-       transform="translate(-26.911905,0.03095311)"
-       sodipodi:nodetypes="csc"
-       inkscape:connector-curvature="0"
-       id="path891"
-       d="m 32.925716,81.721719 c 4.861505,2.55016 13.013327,2.51552 15.900116,4.51938 7.040086,4.88686 -3.598605,18.539581 -15.748651,17.279801"
-       style="fill:#ff8702;fill-opacity:1;stroke:#313131;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#3b8d00;fill-opacity:1;stroke:none"
-       x="34.597908"
-       y="98.06366"
-       id="text857-9"
-       transform="matrix(0.98843805,0.1418575,-0.07767242,1.0005499,0,0)"><tspan
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#313131;fill-opacity:1;stroke:none"
+       x="24.675093"
+       y="116.88561"
+       id="text853"><tspan
          sodipodi:role="line"
-         id="tspan855-0"
-         x="34.597908"
-         y="98.06366"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:1px;fill:#3b8d00;fill-opacity:1">YES</tspan></text>
+         id="tspan851"
+         x="24.675093"
+         y="116.88561"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:37.33333206px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB Bold Condensed';letter-spacing:3px;fill:#008000;fill-opacity:1">YES</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
