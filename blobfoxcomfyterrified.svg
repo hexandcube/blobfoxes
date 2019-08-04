@@ -234,11 +234,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4"
-     inkscape:cx="-102.89546"
-     inkscape:cy="17.673539"
+     inkscape:zoom="16"
+     inkscape:cx="97.006203"
+     inkscape:cy="91.351565"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer5"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -309,7 +309,7 @@
      inkscape:label="Ear front">
     <path
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.80000067;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="m 125.604,14.786681 c -2.6307,-3.092432 -32.939075,-0.409851 -43.56751,9.722833 1.51336,11.608406 6.992157,8.206961 13.761889,10.830944 6.447121,2.498933 4.420621,4.25803 11.379911,10.073808 15.54363,-7.134932 20.94134,-27.670421 18.42571,-30.627585 z"
+       d="m 125.604,14.786681 c -2.6307,-3.092432 -32.939075,-0.409851 -43.56751,9.722833 3.01336,6.920906 6.117157,9.019461 12.886889,11.643444 6.447121,2.498933 5.295621,3.44553 12.254911,9.261308 15.54363,-7.134932 20.94134,-27.670421 18.42571,-30.627585 z"
        id="path911-8"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="scscs" />

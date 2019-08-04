@@ -110,11 +110,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="19.396679"
-     inkscape:cy="61.361824"
+     inkscape:zoom="5.6"
+     inkscape:cx="10.923044"
+     inkscape:cy="44.912043"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -122,7 +122,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="3840"
-     inkscape:window-height="1981"
+     inkscape:window-height="1982"
      inkscape:window-x="2880"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -144,11 +144,18 @@
      id="layer3"
      inkscape:label="Ear  back">
     <path
-       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M 0.74566353,21.659971 C 5.4699627,17.504476 26.582481,32.552496 43.788999,32.237233 L 20.313804,60.451782 C 11.639148,53.686196 -3.535768,25.425931 0.74566353,21.659971 Z"
-       id="rect870"
+       style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999948;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 0.73128748,21.659971 C 4.4997814,16.084625 26.068845,32.883908 44.119796,33.24168 L 25.773184,56.658942 C 22.093669,46.572717 -4.7325834,29.743564 0.73128748,21.659971 Z"
+       id="rect870-2"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sccs" />
+    <path
+       clip-path="none"
+       sodipodi:nodetypes="sccccccss"
+       inkscape:connector-curvature="0"
+       id="path872"
+       d="M 2.1862354,25.710951 C 0.35458178,26.682336 2.3545163,34.848929 9.6767462,41.231634 8.2237995,40.763708 7.4034994,40.635241 4.3725986,40.99224 7.5035813,46.0731 10.10503,50.027871 16.601294,50.620075 l -6.395539,1.600631 c 4.204317,3.258558 9.79174,6.15855 16.337864,4.930903 l 2.203283,-6.466722 C 20.479251,52.925995 17.971516,37.651278 11.515376,30.066694 7.7200655,25.608015 3.7547802,24.879101 2.1862354,25.710951 Z"
+       style="opacity:1;fill:#ebdccc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
   </g>
   <g
      inkscape:groupmode="layer"
