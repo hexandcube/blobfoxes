@@ -1,6 +1,8 @@
 #!/bin/sh
 
-mkdir -p 'export'
+mkdir -p export
+rm -f export/*
+
 find . -type f -iname '*.svg' -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}.png" "{}"' {} \;
 cp LICENSE export/
 
