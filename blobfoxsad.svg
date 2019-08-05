@@ -182,11 +182,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="-44.734812"
-     inkscape:cy="84.449042"
+     inkscape:zoom="15.839192"
+     inkscape:cx="22.007265"
+     inkscape:cy="24.780477"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -194,7 +194,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="3840"
-     inkscape:window-height="1981"
+     inkscape:window-height="1982"
      inkscape:window-x="2880"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -277,10 +277,12 @@
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.81394577;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
     <path
        style="fill:none;fill-opacity:1;stroke:#313131;stroke-width:4.39999962;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 61.704413,98.426225 c 2.494705,-3.946705 6.775564,-7.214577 10.593603,-8.123261 3.106251,1.726921 6.746801,5.990907 8.974234,10.665096"
+       d="m 62.520577,99.528625 c 2.284628,-4.071917 6.388505,-7.559458 10.153726,-8.666813 3.192414,1.561904 7.051238,5.629416 9.520363,10.180568"
        id="path889"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccc" />
+       sodipodi:nodetypes="ccc"
+       inkscape:transform-center-x="0.13924262"
+       inkscape:transform-center-y="5.0375138" />
     <path
        style="opacity:1;fill:#313131;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3.80000043;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 81.947039,77.545208 c 0,1.620925 -7.310654,7.09305 -10.058055,6.749059 -2.959905,-0.370595 -6.747736,-7.693851 -6.16074,-9.201743 1.490244,-3.828189 16.218795,-2.0132 16.218795,2.452684 z"
