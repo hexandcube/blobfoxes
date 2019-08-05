@@ -1,18 +1,26 @@
 #!/bin/sh
 
-FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
+mkdir -p 'export'
+find . -type f -iname '*.svg' -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}.png" "{}"' {} \;
+cp LICENSE export/
 
+cd export
+
+FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
 jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from_entries' <<< "${FILELIST%|}" > blobfox.json
 
-rm blobfox.zip
+rm -f blobfox.zip
 zip blobfox.zip *.png
-
+zip blobfox.zip LICENSE
 CHECKSUM=`sha256sum -z blobfox.zip | awk '{ print $1 }'`
 
 printf '{
-    "src":         "https://git.pleroma.social/pleroma/emoji-index/raw/master/packs/blobfox.zip",
-    "src_sha256":  "%s",
-    "license":     "Apache 2.0",
-    "files":       "blobfox.json",
-    "description": "Like Blobcat, except with foxes"
-}' $CHECKSUM > index.json
+    "blobfox": {
+        "description": "Like Blobcat, but with foxes",
+        "files":       "blobfox.json",
+        "homepage":    "https://www.feuerfuchs.dev/projects/blobfox-emojis/",
+        "src":         "https://www.feuerfuchs.dev/projects/blobfox-emojis/blobfox.zip",
+        "src_sha256":  "%s",
+        "license":     "Apache 2.0"
+    }
+}' $CHECKSUM > manifest.json
