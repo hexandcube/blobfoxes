@@ -1,9 +1,10 @@
 #!/bin/sh
 
-FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.svg.png} $x' {} \;`
+FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
 
 jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from_entries' <<< "${FILELIST%|}" > blobfox.json
 
+rm blobfox.zip
 zip blobfox.zip *.png
 
 CHECKSUM=`sha256sum -z blobfox.zip | awk '{ print $1 }'`
