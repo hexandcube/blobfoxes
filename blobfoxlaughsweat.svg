@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 5da689c313, 2019-01-14"
-   sodipodi:docname="blobfoxlaugh.svg"
+   sodipodi:docname="blobfoxlaughsweat.svg"
    inkscape:export-filename="/home/kevin/Encfs/Media-Enc/Projekte/Grafiken/2019.07.30 - blobfox/blobfoxlaugh.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96">
@@ -92,9 +92,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="15.839192"
-     inkscape:cx="37.481423"
-     inkscape:cy="20.035739"
+     inkscape:zoom="0.9899495"
+     inkscape:cx="-533.59247"
+     inkscape:cy="473.24993"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -117,7 +117,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -197,6 +197,12 @@
        id="path883"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssss" />
+    <path
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:9.00000095;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:fill markers stroke"
+       d="m 135.20003,95.602542 c 0,3.29532 -2.67137,5.966718 -5.9667,5.966718 -3.29533,0 -5.96669,-2.671398 -5.96669,-5.966718 0,-6.1432 3.16171,-7.309956 5.96669,-18.019422 2.79963,10.826039 5.9667,11.960601 5.9667,18.019422 z"
+       id="path867"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssscs" />
   </g>
   <g
      inkscape:groupmode="layer"

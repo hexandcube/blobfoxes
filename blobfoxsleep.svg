@@ -94,11 +94,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6"
-     inkscape:cx="76.418679"
-     inkscape:cy="47.782731"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-884.63039"
+     inkscape:cy="731.46037"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -106,7 +106,7 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:window-width="3840"
-     inkscape:window-height="1981"
+     inkscape:window-height="1982"
      inkscape:window-x="2880"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -144,39 +144,6 @@
        id="path869"
        d="m 127.54759,90.853978 c -0.64045,5.907126 -12.4464,12.498872 -32.983051,16.404062 -19.465826,3.70159 -44.521496,3.69498 -57.357221,1.17303 C 24.29136,105.89338 1.7254932,99.848658 0.64169151,90.600737 -1.0261936,76.368914 0.12151722,65.439756 9.3426733,49.466391 18.064722,34.357614 28.525737,25.591083 42.476075,26.059541 L 28.570302,22.701388 C 38.676489,20.192656 43.145346,19.205181 52.094039,23.461171 46.91915,19.490581 44.034698,11.552093 41.674773,8.111951 54.998366,9.1257935 66.197787,14.98432 71.049901,18.130325 l -1.817999,-7.553369 c 6.252209,1.908459 9.366385,5.236525 16.169054,7.79102 12.67985,4.761459 23.579694,13.155874 33.040514,28.520116 8.37655,13.603358 10.65392,29.690151 9.10612,43.965886 z"
        style="opacity:1;fill:#ff8702;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999971;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.33333397px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#aa003f;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="48.795563"
-       y="51.728489"
-       id="text844"><tspan
-         sodipodi:role="line"
-         id="tspan842"
-         x="48.795563"
-         y="51.728489"
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:26.66666603px;font-family:Gilroy;-inkscape-font-specification:'Gilroy Ultra-Bold';fill:#aa003f;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill">Z</tspan></text>
-    <text
-       id="text848"
-       y="27.520367"
-       x="57.338623"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.33333397px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#aa003f;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:26.66666603px;font-family:Gilroy;-inkscape-font-specification:'Gilroy Ultra-Bold';fill:#aa003f;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-         y="27.520367"
-         x="57.338623"
-         id="tspan846"
-         sodipodi:role="line">z</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.33333397px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#aa003f;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-       x="71.875412"
-       y="15.119047"
-       id="text852"><tspan
-         sodipodi:role="line"
-         id="tspan850"
-         x="71.875412"
-         y="15.119047"
-         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:26.66666603px;font-family:Gilroy;-inkscape-font-specification:'Gilroy Ultra-Bold';fill:#aa003f;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill">z</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -230,6 +197,25 @@
        id="path858-9"
        d="m 72.427754,52.228297 c 1.57333,2.038709 -1.02753,4.62055 -2.96382,2.770622 -6.565525,-6.272667 -11.565095,-6.9641 -14.389557,-6.255907 -2.330189,0.584252 -5.186255,-2.1495 -2.024075,-4.730161 1.838179,-1.500117 4.697314,-2.32109 7.947653,-1.307546 4.648639,1.769388 7.046449,3.843107 11.429799,9.522992 z"
        style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;vector-effect:none;fill:#313131;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    <g
+       aria-label="Z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.33333397px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#aa003f;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="text844" />
+    <g
+       aria-label="z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.33333397px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#aa003f;fill-opacity:1;stroke:none;stroke-width:8;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="text848" />
+    <g
+       aria-label="z"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:29.33333397px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px;fill:#c40049;fill-opacity:1;stroke:none;stroke-width:6.0000124;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       id="text852"
+       transform="matrix(1,0,0,0.99999579,1.2711122,0.07787617)">
+      <path
+         id="path860"
+         style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:26.66666603px;font-family:Gilroy;-inkscape-font-specification:'Gilroy Ultra-Bold';fill:#c40049;fill-opacity:1;stroke:#fde2e2;stroke-width:6.0000124;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         d="m 104.89831,12.491183 5.04,-6.9333335 V 2.8911829 H 99.804975 v 3.7333332 h 4.773335 l -5.040002,6.9333329 v 2.666667 h 10.666662 v -3.733333 z m -14.221117,11.945373 5.04,-6.933333 V 14.836556 H 85.58386 v 3.733334 h 4.773333 l -5.04,6.933333 v 2.666666 h 10.666666 v -3.733333 z m -8.516394,21.86416 7.146667,-11.253333 V 31.740717 H 76.774133 v 4.106666 h 7.013333 l -7.146667,11.253333 v 3.306667 h 12.8 v -4.106667 z"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
   <g
      inkscape:groupmode="layer"
