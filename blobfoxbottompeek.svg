@@ -388,6 +388,16 @@
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="scccccs" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath934">
+      <path
+         sodipodi:nodetypes="ccccc"
+         inkscape:connector-curvature="0"
+         id="path936"
+         d="m 26.911905,127.96905 v -19.18217 c 42.025005,-0.49651 84.550825,2.87532 127.999975,10.01117 l 2e-5,9.171 z"
+         style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -396,11 +406,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.959798"
-     inkscape:cx="-45.127656"
-     inkscape:cy="40.874957"
+     inkscape:zoom="5.6"
+     inkscape:cx="-8.9343232"
+     inkscape:cy="-41.01716"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -511,6 +521,13 @@
        id="path890"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csc" />
+    <path
+       id="path929"
+       style="fill:none;stroke:#313131;stroke-width:3.99999976;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 152.8917,109.597 -16.35159,16.35185 m 0.97928,-16.35185 -16.35185,16.35185 m 0.97928,-16.35185 -16.35185,16.35185 M 106.77424,109.597 90.422386,125.94885 M 91.401661,109.597 75.049816,125.94885 M 76.029091,109.597 59.677246,125.94885 M 60.656521,109.597 44.304676,125.94885 M 45.28395,109.597 28.932105,125.94885"
+       clip-path="url(#clipPath934)"
+       inkscape:connector-curvature="0"
+       transform="translate(0,28.571428)" />
   </g>
   <g
      inkscape:groupmode="layer"

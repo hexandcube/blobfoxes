@@ -96,13 +96,13 @@
     </clipPath>
     <clipPath
        clipPathUnits="userSpaceOnUse"
-       id="clipPath1215">
+       id="clipPath913">
       <path
-         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
-         d="m 121.36902,92.745531 c 1.2e-4,2.094602 -19.32821,6.335069 -43.170881,6.335069 -23.842672,0 -43.170988,-4.199414 -43.170889,-6.335069 l -3.146352,-20.317274 96.283922,-0.21378 z"
-         id="path1217"
+         sodipodi:nodetypes="cscccc"
          inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cscccc" />
+         id="path915"
+         d="m 94.457115,91.876484 c 1.2e-4,2.094602 -19.32821,6.335069 -43.170881,6.335069 -23.842672,0 -43.170988,-4.199414 -43.170889,-6.335069 L 4.968993,71.55921 101.25291,71.34543 Z"
+         style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.99999976;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
     </clipPath>
   </defs>
   <sodipodi:namedview
@@ -112,11 +112,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="22.4"
-     inkscape:cx="39.265341"
-     inkscape:cy="68.086384"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="-634.38432"
+     inkscape:cy="551.55547"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -296,15 +296,13 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cscsc" />
     <g
-       style=""
-       id="g1213"
-       clip-path="url(#clipPath1215)"
-       transform="translate(-26.911905,-0.86904689)">
+       id="g911"
+       clip-path="url(#clipPath913)">
       <rect
          transform="rotate(12.154819)"
          ry="1.5828307"
-         y="59.196667"
-         x="115.51626"
+         y="64.013512"
+         x="89.024681"
          height="13.430765"
          width="13.430765"
          id="rect905"
@@ -314,15 +312,15 @@
          id="rect1079"
          width="13.430765"
          height="13.430765"
-         x="82.971855"
-         y="103.82263"
+         x="56.809834"
+         y="97.454391"
          ry="1.5828308"
          transform="rotate(-11.831052)" />
       <rect
          transform="rotate(-11.831052)"
          ry="1.5828308"
-         y="104.45463"
-         x="84.763969"
+         y="98.086388"
+         x="58.601948"
          height="13.430765"
          width="13.430765"
          id="rect874"
@@ -330,8 +328,8 @@
       <rect
          transform="rotate(-60.147244)"
          ry="1.5828307"
-         y="85.144096"
-         x="-54.577015"
+         y="61.370613"
+         x="-67.219299"
          height="13.430765"
          width="13.430765"
          id="rect903"
@@ -341,15 +339,15 @@
          id="rect901"
          width="13.430765"
          height="13.430765"
-         x="112.89577"
-         y="-0.97759295"
+         x="93.210022"
+         y="17.392965"
          ry="1.5828308"
          transform="rotate(44.870274)" />
       <rect
          transform="rotate(84.049141)"
          ry="1.5828308"
-         y="-81.376625"
-         x="93.40995"
+         y="-54.699844"
+         x="89.755486"
          height="13.430765"
          width="13.430765"
          id="rect1002"
@@ -359,15 +357,24 @@
          id="rect889"
          width="13.430765"
          height="13.430765"
-         x="94.822998"
-         y="-83.123138"
+         x="91.168533"
+         y="-56.446358"
          ry="1.5828308"
          transform="rotate(84.049141)" />
       <rect
+         style="opacity:1;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:3;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect892"
+         width="13.430765"
+         height="13.430765"
+         x="63.757191"
+         y="59.759197"
+         ry="1.5828308"
+         transform="rotate(21.088597)" />
+      <rect
          transform="rotate(21.088597)"
          ry="1.5828308"
-         y="52.082111"
-         x="90.454094"
+         y="60.954472"
+         x="65.031914"
          height="13.430765"
          width="13.430765"
          id="rect891"
@@ -375,8 +382,8 @@
       <rect
          transform="rotate(-60.147244)"
          ry="1.5828307"
-         y="107.76984"
-         x="-48.746082"
+         y="83.996353"
+         x="-61.388363"
          height="13.430765"
          width="13.430765"
          id="rect1006"
@@ -386,15 +393,24 @@
          id="rect893"
          width="13.430765"
          height="13.430765"
-         x="-49.938759"
-         y="108.99184"
+         x="-62.581039"
+         y="85.218353"
          ry="1.5828307"
          transform="rotate(-60.147244)" />
       <rect
+         style="opacity:1;fill:#502d16;fill-opacity:1;stroke:none;stroke-width:3.00000024;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+         id="rect890"
+         width="13.430765"
+         height="13.430765"
+         x="105.95782"
+         y="8.6686802"
+         ry="1.5828308"
+         transform="rotate(44.870274)" />
+      <rect
          transform="rotate(44.870274)"
          ry="1.5828308"
-         y="-10.77173"
-         x="127.16122"
+         y="7.5988269"
+         x="107.47547"
          height="13.430765"
          width="13.430765"
          id="rect895"
@@ -404,15 +420,15 @@
          id="rect998"
          width="13.430765"
          height="13.430765"
-         x="-60.794754"
-         y="80.679115"
+         x="-73.437035"
+         y="56.905632"
          ry="1.5828307"
          transform="rotate(-60.147244)" />
       <rect
          transform="rotate(-25.836171)"
          ry="1.5828308"
-         y="104.74509"
-         x="6.7574873"
+         y="92.234718"
+         x="-17.085676"
          height="13.430765"
          width="13.430765"
          id="rect1004"
@@ -422,15 +438,15 @@
          id="rect897"
          width="13.430765"
          height="13.430765"
-         x="4.9695053"
-         y="104.26788"
+         x="-18.873659"
+         y="91.757515"
          ry="1.5828308"
          transform="rotate(-25.836171)" />
       <rect
          transform="rotate(-60.147244)"
          ry="1.5828307"
-         y="79.015617"
-         x="-62.437222"
+         y="55.242134"
+         x="-75.079506"
          height="13.430765"
          width="13.430765"
          id="rect899"
