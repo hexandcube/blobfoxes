@@ -21,7 +21,7 @@ CHECKSUM=`sha256sum -z blobfox.zip | awk '{ print $1 }'`
 
 cd ../export_flip
 
-rm blobfoxsign*.png blobfoxconfused.png blobfoxbottompeek2.png blobfoxbreadsnoot*.png
+rm blobfoxsign*.png blobfoxconfused.png blobfoxbottompeek2.png blobfoxbreadsnoot*.png blobfoxrealisticbreadsnoot*.png
 find . -type f -iname '*.png' -exec sh -c 'x=${0#./blobfox}; mv blobfox$x revblobfox$x' {} \;
 mogrify -flop *.png
 FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
