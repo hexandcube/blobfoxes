@@ -176,11 +176,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="-109.01777"
-     inkscape:cy="92.220015"
+     inkscape:zoom="3.959798"
+     inkscape:cx="-22.171375"
+     inkscape:cy="68.889941"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer4"
      showgrid="false"
      units="px"
      fit-margin-top="0"
@@ -201,7 +201,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -223,17 +223,17 @@
      inkscape:label="Body"
      style="display:inline">
     <path
-       style="display:inline;opacity:1;fill:#ff8702;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
-       d="M 18.138984,47.267453 C 25.182517,32.492058 33.310218,27.661816 46.395685,27.69172 L 33.267051,24.94982 C 42.662993,22.299839 46.82136,21.242346 55.331519,24.972 50.365872,21.399297 47.429791,14.03728 45.11741,10.879534 c 12.514222,0.559906 23.180444,5.726725 27.819417,8.535399 l -1.925479,-7.032065 c 5.914511,1.606686 8.619631,5.541369 15.368406,6.475258 17.597676,2.656259 17.884106,10.343197 23.082256,25.217593 20.42893,20.42893 21.97436,54.769068 14.10024,62.643201 -13.34418,13.34418 -26.615116,11.35791 -59.680685,11.35791 -31.338629,0 -46.936789,3.13294 -59.7149768,-9.64524 -7.2228688,-7.22287 -6.2928901,-45.109404 13.9723958,-61.164137 z"
-       id="path1115"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccccccccsssc" />
-    <path
        style="opacity:1;fill:#ff8702;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
        d="m 391.20156,-29.171318 c 4.00843,11.595249 1.91686,13.588343 4.15314,20.0572417 2.26556,6.553592 5.83609,7.630335 6.19014,12.606015 0.44154,6.205402 -5.55783,16.8631443 -22.344,26.4954773 -15.91092,9.13012 -37.83555,16.7029 -49.82991,18.37629 -12.06933,1.68387 -32.30704,1.44378 -37.58624,-7.17642 -7.50861,-12.26051 -10.34336,-32.8922283 -7.11202,-49.6727573 3.05643,-15.8722507 9.20772,-27.7193157 21.55551,-31.5285337 l -13.18381,1.264593 c 8.08283,-5.254262 11.69387,-7.470905 20.81232,-6.449701 -5.73011,-1.912677 -10.65768,-7.993708 -13.76419,-10.293199 11.96456,-3.141935 23.53755,-1.39781 28.73556,-0.109769 l -3.87785,-6.066269 c 6.0483,-0.219441 9.75299,2.697488 16.39066,1.598965 17.37281,-2.655932 41.08893,5.523926 49.86069,30.89807 z"
        id="path837"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssssssscccccccs" />
+    <path
+       style="display:inline;opacity:1;fill:#ff8702;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.79999995;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 18.095315,47.267578 C 25.14399,32.492183 33.277625,27.661941 46.372646,27.691845 l -13.138219,-2.7419 c 9.402802,-2.649981 13.564205,-3.707474 22.08058,0.02218 -4.96928,-3.572703 -7.9075,-10.93472 -10.221569,-14.092466 12.523359,0.559906 23.197369,5.726725 27.839729,8.535399 l -1.92689,-7.032065 c 5.91883,1.606686 8.62593,5.541369 15.37963,6.475258 17.610523,2.656259 17.897163,10.343197 23.099113,25.217593 20.44384,20.428927 21.99041,56.554776 14.11053,64.428906 -11.18017,11.17202 -27.974813,9.1934 -59.724263,9.1934 -31.361504,0 -48.297846,2.18593 -59.7585698,-9.26644 -7.228145,-7.22287 -6.297484,-45.109399 13.9825978,-61.164132 z"
+       id="path1115"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccccsssc" />
   </g>
   <g
      inkscape:groupmode="layer"
