@@ -11,27 +11,25 @@ cp LICENSE export/
 cp export/* export_flip/
 
 cd export
-apngasm blobfoxbongo.png blobfoxbongostart.png 1 2
+apngasm -o ablobfoxbongo.png blobfoxbongo.png 100 blobfoxbongostart.png 100
 
 FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
 jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from_entries' <<< "${FILELIST%|}" > blobfox.json
 
 zip blobfox.zip *.png
-zip blobfox.zip *.apng
 zip blobfox.zip LICENSE
 CHECKSUM=`sha256sum -z blobfox.zip | awk '{ print $1 }'`
 
 cd ../export_flip
-apngasm blobfoxbongo.png blobfoxbongostart.png 1 2
 
 rm blobfoxsign*.png blobfoxconfused.png blobfoxbottompeek2.png blobfoxbreadsnoot*.png
 find . -type f -iname '*.png' -exec sh -c 'x=${0#./blobfox}; mv blobfox$x revblobfox$x' {} \;
 mogrify -flop *.png
+apngasm -o arevblobfoxbongo.png revblobfoxbongo.png 100 revblobfoxbongostart.png 100
 FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
 jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from_entries' <<< "${FILELIST%|}" > blobfox_flip.json
 
 zip blobfox_flip.zip *.png
-zip blobfox_flip.zip *.apng
 zip blobfox_flip.zip LICENSE
 CHECKSUM_FLIP=`sha256sum -z blobfox_flip.zip | awk '{ print $1 }'`
 
