@@ -10,12 +10,13 @@ find . -type f \( -iname "*.svg" ! -iname ".*" \) -print0 | parallel -0 'x={.}; 
 ./blobfoxdundundun.sh
 ./hyperize.sh blobfoxhyperowo
 ./hyperize.sh blobfoxhypercofe
+./hyperize.sh blobfoxhyperthinking
 cp LICENSE export/
 
 cd export
 apngasm -o ablobfoxbongo.png blobfoxbongo.png 100 blobfoxbongostart.png 100
 apngasm -o ablobfoxhyper.png blobfoxhyper1.png 2:100 blobfoxhyper2.png 2:100 blobfoxhyper3.png 2:100
-rm blobfoxhyper1.png blobfoxhyper2.png blobfoxhyper3.png blobfoxhyperowo.png blobfoxhypercofe.png
+rm blobfoxhyper1.png blobfoxhyper2.png blobfoxhyper3.png blobfoxhyperowo.png blobfoxhypercofe.png blobfoxhyperthinking.png
 cp ./blobfox* ../export_flip/
 
 
