@@ -8,13 +8,14 @@ rm -f export_flip/*
 
 find . -type f \( -iname "*.svg" ! -iname ".*" \) -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}.png" "{}"' {} \;
 ./blobfoxdundundun.sh
+./blobfoxhyperowo.sh
 cp LICENSE export/
 cp export/* export_flip/
 
 cd export
 apngasm -o ablobfoxbongo.png blobfoxbongo.png 100 blobfoxbongostart.png 100
 apngasm -o ablobfoxhyper.png blobfoxhyper1.png 2:100 blobfoxhyper2.png 2:100 blobfoxhyper3.png 2:100
-rm blobfoxhyper1.png blobfoxhyper2.png blobfoxhyper3.png
+rm blobfoxhyper1.png blobfoxhyper2.png blobfoxhyper3.png blobfoxhyperowo.png
 
 FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
 jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from_entries' <<< "${FILELIST%|}" > blobfox.json
@@ -30,7 +31,7 @@ find . -type f -iname '*.png' -exec sh -c 'x=${0#./blobfox}; mv blobfox$x revblo
 mogrify -flop *.png
 apngasm -o arevblobfoxbongo.png revblobfoxbongo.png 100 revblobfoxbongostart.png 100
 apngasm -o arevblobfoxhyper.png revblobfoxhyper1.png 2:100 revblobfoxhyper2.png 2:100 revblobfoxhyper3.png 2:100
-rm revblobfoxhyper1.png revblobfoxhyper2.png revblobfoxhyper3.png
+rm revblobfoxhyper1.png revblobfoxhyper2.png revblobfoxhyper3.png revblobfoxhyperowo.png
 FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
 jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from_entries' <<< "${FILELIST%|}" > blobfox_flip.json
 
