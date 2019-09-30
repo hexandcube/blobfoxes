@@ -7,7 +7,8 @@ mkdir -p export_flip
 rm -f export_flip/*
 
 find . -type f \( -iname "*.svg" ! -iname ".*" ! -iname "a*" \) -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}.png" "{}"' {} \;
-./blobfoxdundundun.sh
+./dundundun.sh ablobfoxdundundun
+./dundundun.sh ablobfoxdundundunowo
 ./hyperize.sh ablobfoxhyperowo
 ./hyperize.sh ablobfoxhypercofe
 ./hyperize.sh ablobfoxhyperthinking
@@ -29,7 +30,7 @@ CHECKSUM=`sha256sum -z blobfox.zip | awk '{ print $1 }'`
 
 cd ../export_flip
 
-rm blobfoxsign*.png blobfoxconfused.png blobfoxbreadsnoot*.png
+rm blobfoxsign*.png blobfoxconfused.png blobfoxbreadsnoot*.png blobfoxsleep.png
 find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; mv $x rev$x' {} \;
 mogrify -flop *.png
 FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`

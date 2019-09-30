@@ -5,22 +5,26 @@ source ./shakeoffsets.sh
 declare -a shakeOffsets
 getShakeOffsets shakeOffsets
 
+SOURCEBASE=$1
+SOURCESVG=`printf "%s.svg" $SOURCEBASE`
+TARGETSVG=`printf "export/%s.png" $SOURCEBASE`
 
 mkdir -p export_tmp
 rm -f export_tmp/*
 
 
-inkscape -z -e "export_tmp/1.png" "ablobfoxdundundun1.svg"
-inkscape -z -e "export_tmp/2.png" "ablobfoxdundundun2.svg"
-inkscape -z -e "export_tmp/3.png" "ablobfoxdundundun3.svg"
-inkscape -z -e "export_tmp/4.png" "ablobfoxdundundun4.svg"
+inkscape -z -e "export_tmp/1.png" `printf "%s1.png" $SOURCEBASE`
+inkscape -z -e "export_tmp/2.png" `printf "%s2.png" $SOURCEBASE`
+inkscape -z -e "export_tmp/3.png" `printf "%s3.png" $SOURCEBASE`
+inkscape -z -e "export_tmp/4.png" `printf "%s4.png" $SOURCEBASE`
 
 counter=5
 while [ $counter -le 79 ]
 do
     offset=${shakeOffsets[counter-5]}
     file=`printf "export_tmp/%s.png" $counter`
-    inkscape -z -e $file -a $offset "ablobfoxdundundun4.svg"
+    source=`printf "%s4.png" $SOURCEBASE`
+    inkscape -z -e $file -a $offset $source
     ((counter++))
 done
 
@@ -38,5 +42,5 @@ do
     ((counter++))
 done
 
-apngasm -o export/ablobfoxdundundun.png ${args[@]}
+apngasm -o $TARGETSVG ${args[@]}
 rm -f export_tmp/*
