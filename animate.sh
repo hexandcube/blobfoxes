@@ -1,11 +1,8 @@
 #!/bin/sh
 
-source ./shakeoffsets.sh
-
-declare -a shakeOffsets
-getShakeOffsets shakeOffsets
-
 SOURCEBASE=$1
+MAX=$2
+DELAY=$3
 SOURCESVG=`printf "%s.svg" $SOURCEBASE`
 TARGETSVG=`printf "export/%s.png" $SOURCEBASE`
 
@@ -15,11 +12,11 @@ rm -f export_tmp/*
 
 
 counter=1
-while [ $counter -le 75 ]
+while [ $counter -le $MAX ]
 do
-    offset=${shakeOffsets[counter-1]}
+    source=`printf "%s%s.svg" $SOURCEBASE $counter`
     file=`printf "export_tmp/%s.png" $counter`
-    inkscape -z -e $file -a $offset $SOURCESVG
+    inkscape -z -e $file $source
     ((counter++))
 done
 
@@ -27,10 +24,10 @@ done
 declare -a args
 
 counter=1
-while [ $counter -le 75 ]
+while [ $counter -le $MAX ]
 do
     file=`printf "export_tmp/%s.png" $counter`
-    args+=($file 1:50)
+    args+=($file $DELAY)
     ((counter++))
 done
 

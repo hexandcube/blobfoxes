@@ -6,18 +6,18 @@ rm -f export/*
 mkdir -p export_flip
 rm -f export_flip/*
 
-find . -type f \( -iname "*.svg" ! -iname ".*" \) -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}.png" "{}"' {} \;
+find . -type f \( -iname "*.svg" ! -iname ".*" ! -iname "a*" \) -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}.png" "{}"' {} \;
 ./blobfoxdundundun.sh
-./hyperize.sh blobfoxhyperowo
-./hyperize.sh blobfoxhypercofe
-./hyperize.sh blobfoxhyperthinking
+./hyperize.sh ablobfoxhyperowo
+./hyperize.sh ablobfoxhypercofe
+./hyperize.sh ablobfoxhyperthinking
+./animate.sh ablobfoxhyper 3 2:100
 cp LICENSE export/
 
 cd export
 apngasm -o ablobfoxbongo.png blobfoxbongo.png 100 blobfoxbongostart.png 100
-apngasm -o ablobfoxhyper.png blobfoxhyper1.png 2:100 blobfoxhyper2.png 2:100 blobfoxhyper3.png 2:100
-rm blobfoxhyper1.png blobfoxhyper2.png blobfoxhyper3.png blobfoxhyperowo.png blobfoxhypercofe.png blobfoxhyperthinking.png
 cp ./blobfox* ../export_flip/
+cp ./LICENSE ../export_flip/
 
 
 FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`

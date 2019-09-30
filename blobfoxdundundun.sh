@@ -10,17 +10,17 @@ mkdir -p export_tmp
 rm -f export_tmp/*
 
 
-inkscape -z -e "export_tmp/1.png" "blobfoxdundundun1.svg"
-inkscape -z -e "export_tmp/2.png" "blobfoxdundundun2.svg"
-inkscape -z -e "export_tmp/3.png" "blobfoxdundundun3.svg"
-inkscape -z -e "export_tmp/4.png" "blobfoxdundundun4.svg"
+inkscape -z -e "export_tmp/1.png" "ablobfoxdundundun1.svg"
+inkscape -z -e "export_tmp/2.png" "ablobfoxdundundun2.svg"
+inkscape -z -e "export_tmp/3.png" "ablobfoxdundundun3.svg"
+inkscape -z -e "export_tmp/4.png" "ablobfoxdundundun4.svg"
 
 counter=5
 while [ $counter -le 79 ]
 do
     offset=${shakeOffsets[counter-5]}
     file=`printf "export_tmp/%s.png" $counter`
-    inkscape -z -e $file -a $offset "blobfoxdundundun4.svg"
+    inkscape -z -e $file -a $offset "ablobfoxdundundun4.svg"
     ((counter++))
 done
 
