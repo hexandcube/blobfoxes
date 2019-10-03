@@ -17,7 +17,7 @@ cp LICENSE export/
 
 cd export
 apngasm -o ablobfoxbongo.png blobfoxbongo.png 100 blobfoxbongostart.png 100
-cp ./blobfox* ../export_flip/
+cp ./*.png ../export_flip/
 cp ./LICENSE ../export_flip/
 
 
@@ -31,8 +31,10 @@ CHECKSUM=`sha256sum -z blobfox.zip | awk '{ print $1 }'`
 cd ../export_flip
 
 rm blobfoxsign*.png blobfoxconfused.png blobfoxbreadsnoot*.png blobfoxsleep.png
-find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; mv $x rev$x' {} \;
-mogrify -flop *.png
+find . -type f \( -iname "*.png" ! -iname "a*" \) -exec sh -c 'x=${0#./}; mv $x rev$x' {} \;
+mogrify -flop rev*.png
+find . -type f -iname "a*.png" -exec sh -c 'x=${0#./a}; ffmpeg -i a$x -vf hflip -f apng -plays 0 arev$x' {} \;
+rm ablob*.png
 FILELIST=`find . -type f -iname '*.png' -exec sh -c 'x=${0#./}; printf "%s:%s|" ${x%.png} $x' {} \;`
 jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from_entries' <<< "${FILELIST%|}" > blobfox_flip.json
 

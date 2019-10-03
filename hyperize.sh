@@ -15,13 +15,20 @@ rm -f export_tmp/*
 
 
 counter=1
+NUMPROCS=8
+NUMJOBS="\j"
 while [ $counter -le 75 ]
 do
+    while (( ${NUMJOBS@P} >= NUMPROCS )); do
+        wait -n
+    done
     offset=${shakeOffsets[counter-1]}
     file=`printf "export_tmp/%s.png" $counter`
-    inkscape -z -e $file -a $offset $SOURCESVG
+    inkscape -z -e $file -a $offset $SOURCESVG &
     ((counter++))
 done
+
+wait -n
 
 
 declare -a args
