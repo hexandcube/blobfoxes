@@ -15,8 +15,10 @@ counter=1
 while [ $counter -le $MAX ]
 do
     source=`printf "%s%s.svg" $SOURCEBASE $counter`
-    file=`printf "export_tmp/%s.png" $counter`
+    file=`printf "export_tmp/%s_raw.png" $counter`
+    filecomp=`printf "export_tmp/%s.png" $counter`
     inkscape -z -e $file $source
+    pngquant -o $filecomp $file
     ((counter++))
 done
 
@@ -32,4 +34,4 @@ do
 done
 
 apngasm -o $TARGETSVG ${args[@]}
-rm -f export_tmp/*
+#rm -f export_tmp/*

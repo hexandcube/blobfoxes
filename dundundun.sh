@@ -13,10 +13,10 @@ mkdir -p export_tmp
 rm -f export_tmp/*
 
 
-inkscape -z -e "export_tmp/1.png" `printf "%s1.svg" $SOURCEBASE`
-inkscape -z -e "export_tmp/2.png" `printf "%s2.svg" $SOURCEBASE`
-inkscape -z -e "export_tmp/3.png" `printf "%s3.svg" $SOURCEBASE`
-inkscape -z -e "export_tmp/4.png" `printf "%s4.svg" $SOURCEBASE`
+inkscape -z -e "export_tmp/1_raw.png" `printf "%s1.svg" $SOURCEBASE`
+inkscape -z -e "export_tmp/2_raw.png" `printf "%s2.svg" $SOURCEBASE`
+inkscape -z -e "export_tmp/3_raw.png" `printf "%s3.svg" $SOURCEBASE`
+inkscape -z -e "export_tmp/4_raw.png" `printf "%s4.svg" $SOURCEBASE`
 
 counter=5
 NUMPROCS=8
@@ -27,9 +27,24 @@ do
         wait -n
     done
     offset=${shakeOffsets[counter-5]}
-    file=`printf "export_tmp/%s.png" $counter`
+    file=`printf "export_tmp/%s_raw.png" $counter`
     source=`printf "%s4.svg" $SOURCEBASE`
     inkscape -z -e $file -a $offset $source &
+    ((counter++))
+done
+
+wait -n
+
+
+counter=1
+while [ $counter -le 79 ]
+do
+    while (( ${NUMJOBS@P} >= NUMPROCS )); do
+        wait -n
+    done
+    file=`printf "export_tmp/%s.png" $counter`
+    source=`printf "export_tmp/%s_raw.png" $counter`
+    pngquant -o $file $source &
     ((counter++))
 done
 
@@ -50,4 +65,4 @@ do
 done
 
 apngasm -o $TARGETSVG ${args[@]}
-rm -f export_tmp/*
+#rm -f export_tmp/*

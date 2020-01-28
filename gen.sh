@@ -6,17 +6,21 @@ rm -f export/*
 mkdir -p export_flip
 rm -f export_flip/*
 
-find . -type f \( -iname "*.svg" ! -iname ".*" ! -iname "a*" \) -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}.png" "{}"' {} \;
+find . -type f \( -iname "*.svg" ! -iname ".*" ! -iname "a*" \) -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}_raw.png" "{}"' \;
 ./dundundun.sh ablobfoxdundundun
 ./dundundun.sh ablobfoxdundundunowo
 ./hyperize.sh ablobfoxhyperowo
 ./hyperize.sh ablobfoxhypercofe
 ./hyperize.sh ablobfoxhyperthinking
 ./animate.sh ablobfoxhyper 3 2:100
+./animate.sh ablobfoxloading 36 3:100
 cp LICENSE export/
 
 cd export
+find . -type f -iname "*_raw.png" -print0 | parallel -0 'x={.}; pngquant -o "${x%_raw}.png" "{}"' \;
+rm ./*_raw.png
 apngasm -o ablobfoxbongo.png blobfoxbongo.png 100 blobfoxbongostart.png 100
+apngasm -o ablobfoxbongohyper.png blobfoxbongo.png 5:100 blobfoxbongostart.png 5:100
 cp ./*.png ../export_flip/
 cp ./LICENSE ../export_flip/
 
@@ -26,6 +30,7 @@ jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from
 
 zip blobfox.zip *.png
 zip blobfox.zip LICENSE
+tar -cvzf blobfox.tar.gz *.png LICENSE
 CHECKSUM=`sha256sum -z blobfox.zip | awk '{ print $1 }'`
 
 cd ../export_flip
@@ -40,11 +45,13 @@ jq -Rn 'input | split("|") | map(split(":") | { key: .[0], value: .[1] }) | from
 
 zip blobfox_flip.zip *.png
 zip blobfox_flip.zip LICENSE
+tar -cvzf blobfox_flip.tar.gz *.png LICENSE
 CHECKSUM_FLIP=`sha256sum -z blobfox_flip.zip | awk '{ print $1 }'`
 
 cd ../export
 
 mv ../export_flip/blobfox_flip.zip ./
+mv ../export_flip/blobfox_flip.tar.gz ./
 mv ../export_flip/blobfox_flip.json ./
 
 rm -f *.png

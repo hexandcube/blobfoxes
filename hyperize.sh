@@ -23,8 +23,20 @@ do
         wait -n
     done
     offset=${shakeOffsets[counter-1]}
-    file=`printf "export_tmp/%s.png" $counter`
+    file=`printf "export_tmp/%s_raw.png" $counter`
     inkscape -z -e $file -a $offset $SOURCESVG &
+    ((counter++))
+done
+
+wait -n
+
+
+counter=1
+while [ $counter -le 75 ]
+do
+    file=`printf "export_tmp/%s.png" $counter`
+    source=`printf "export_tmp/%s_raw.png" $counter`
+    pngquant -o $file $source &
     ((counter++))
 done
 
@@ -42,4 +54,4 @@ do
 done
 
 apngasm -o $TARGETSVG ${args[@]}
-rm -f export_tmp/*
+#rm -f export_tmp/*
