@@ -24,7 +24,7 @@ do
     done
     offset=${shakeOffsets[counter-1]}
     file=`printf "export_tmp/%s_raw.png" $counter`
-    inkscape -z -e $file -a $offset $SOURCESVG &
+    inkscape -o $file --export-area=$offset $SOURCESVG &
     ((counter++))
 done
 

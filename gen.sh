@@ -6,12 +6,15 @@ rm -f export/*
 mkdir -p export_flip
 rm -f export_flip/*
 
-find . -type f \( -iname "*.svg" ! -iname ".*" ! -iname "a*" \) -print0 | parallel -0 'x={.}; inkscape -z -e "export/${x#./}_raw.png" "{}"' \;
+find . -type f \( -iname "*.svg" ! -iname ".*" ! -iname "a*" \) -print0 | parallel -0 'x={.}; inkscape -o "export/${x#./}_raw.png" "{}"' \;
 ./dundundun.sh ablobfoxdundundun
 ./dundundun.sh ablobfoxdundundunowo
 ./hyperize.sh ablobfoxhyperowo
 ./hyperize.sh ablobfoxhypercofe
 ./hyperize.sh ablobfoxhyperthinking
+./hyperize.sh ablobfoxhypersnugowo
+./hyperize.sh ablobfoxhyperwhaaaat
+./hyperize.sh ablobfoxree
 ./animate.sh ablobfoxhyper 3 2:100
 ./animate.sh ablobfoxloading 36 3:100
 cp LICENSE export/
@@ -21,6 +24,7 @@ find . -type f -iname "*_raw.png" -print0 | parallel -0 'x={.}; pngquant -o "${x
 rm ./*_raw.png
 apngasm -o ablobfoxbongo.png blobfoxbongo.png 100 blobfoxbongostart.png 100
 apngasm -o ablobfoxbongohyper.png blobfoxbongo.png 5:100 blobfoxbongostart.png 5:100
+apngasm -o ablobfoxbongoterrified.png blobfoxbongoterrified.png 5:100 blobfoxbongoterrifiedstart.png 5:100
 cp ./*.png ../export_flip/
 cp ./LICENSE ../export_flip/
 

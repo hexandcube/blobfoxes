@@ -17,7 +17,7 @@ do
     source=`printf "%s%s.svg" $SOURCEBASE $counter`
     file=`printf "export_tmp/%s_raw.png" $counter`
     filecomp=`printf "export_tmp/%s.png" $counter`
-    inkscape -z -e $file $source
+    inkscape -o $file $source
     pngquant -o $filecomp $file
     ((counter++))
 done

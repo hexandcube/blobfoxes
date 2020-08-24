@@ -13,10 +13,10 @@ mkdir -p export_tmp
 rm -f export_tmp/*
 
 
-inkscape -z -e "export_tmp/1_raw.png" `printf "%s1.svg" $SOURCEBASE`
-inkscape -z -e "export_tmp/2_raw.png" `printf "%s2.svg" $SOURCEBASE`
-inkscape -z -e "export_tmp/3_raw.png" `printf "%s3.svg" $SOURCEBASE`
-inkscape -z -e "export_tmp/4_raw.png" `printf "%s4.svg" $SOURCEBASE`
+inkscape -o "export_tmp/1_raw.png" `printf "%s1.svg" $SOURCEBASE`
+inkscape -o "export_tmp/2_raw.png" `printf "%s2.svg" $SOURCEBASE`
+inkscape -o "export_tmp/3_raw.png" `printf "%s3.svg" $SOURCEBASE`
+inkscape -o "export_tmp/4_raw.png" `printf "%s4.svg" $SOURCEBASE`
 
 counter=5
 NUMPROCS=8
@@ -29,7 +29,7 @@ do
     offset=${shakeOffsets[counter-5]}
     file=`printf "export_tmp/%s_raw.png" $counter`
     source=`printf "%s4.svg" $SOURCEBASE`
-    inkscape -z -e $file -a $offset $source &
+    inkscape -o $file --export-area=$offset $source &
     ((counter++))
 done
 
