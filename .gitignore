@@ -1,3 +1,5 @@
 export
 export_flip
 export_tmp
+
+*.png
